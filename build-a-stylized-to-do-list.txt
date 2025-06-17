@@ -1,0 +1,60 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Styled To-Do List</title>
+</head>
+
+<body>
+    <h1>My To-Do List</h1>
+    <ul class="todo-list">
+        <li><input id="list1" type="checkbox"><label for="list1">learn Coding with freeCodeCamp</label>
+        <ul class="sub-item">
+            <li ><a class="sub-item-link" href="https://www.freecodecamp.org/learn/full-stack-developer" target="_blank">Go to here</a></li>
+        </ul></li>
+        <li><input id="list2" type="checkbox"><label for="list2">Make a Live in tiktok</label><ul class="sub-item">
+            <li><a class="sub-item-link" href="https://www.tiktok.com" target="_blank">Go to here</a></li>
+        </ul></li>
+        <li><input id="list3" type="checkbox"><label for="list3">learn Coding with freeCodeCamp</label><ul class="sub-item">
+            <li ><a class="sub-item-link"  href="https://www.freecodecamp.org/learn/full-stack-developer" target="_blank">Go to here</a></li>
+        </ul></li>
+        <li><input id="list4" type="checkbox"><label for="list4">learn Coding with freeCodeCamp</label><ul class="sub-item">
+            <li><a class="sub-item-link" href="https://www.freecodecamp.org/learn/full-stack-developer" target="_blank">Go to here</a></li>
+        </ul></li>
+    </ul>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+a {
+  text-decoration: none;
+  transition: color 0.2s;
+  color: #0066cc;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: yellow;
+}
+a:active {
+  color: red;
+}
+
+a:focus {
+   outline: 2px solid #8a2be2;
+  outline-offset: 2px;
+}
+
+** end of styles.css **
+
