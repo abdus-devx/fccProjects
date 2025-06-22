@@ -1,0 +1,91 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="blog-post-card">
+            <img class="post-img" src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="_blank">
+            <div class="post-content">
+                <h2 class="post-title">Learn Web Development in 2025</h2>
+                <p class="post-excerpt">Stay ahead of the curve with the latest trends in web development. Discover what's new and exciting in 2025</p>
+                <a class="read-more">Read More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+* {
+  background: #FAF9f;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  height: 100vh;
+}
+.blog-post-card {
+  background: white;
+  border-radius: 15px;
+  width: 350px;
+  height: 480px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+  
+}
+
+.post-img {
+  width: 350px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 2px solid #ffff;
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.read-more {
+  color: #ffffff;
+  transition: all 0.3s ease;
+  background-color: brown;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.read-more:hover {
+  background-color: orange;
+  color: red;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.post-excerpt {
+  margin: 20px;
+  color: #005466;
+}
+
+.post-title {
+  margin: 20px;
+  color: #005466;
+}
+
+** end of styles.css **
+
