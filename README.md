@@ -1,1 +1,1 @@
-kumpulan file project latohan dari freeCodeCamp
+kumpulan file project latihan dari freeCodeCamp
